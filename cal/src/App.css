@@ -1,0 +1,33 @@
+body{
+  background-color: rgb(98, 213, 106);
+}
+.main {
+  margin-top: 0%;
+  margin-left: 450px;
+  display: grid;
+  margin-top: 2rem;
+  justify-content: center;
+  grid-template-columns: repeat(4, 6rem);
+  grid-template-rows: minmax(7rem, auto) repeat(5, 7rem);
+  background-color: rgb(243, 241, 241);
+}
+
+
+
+.two {
+  grid-column: span 2;
+ 
+}
+
+.second {
+  grid-column: 1 / -1;
+  background-color: rgba(176, 14, 14, 0.75);
+  display: flex;
+  padding: .75rem;
+  word-wrap: break-word;
+  word-break: break-all;  
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  
+}
